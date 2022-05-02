@@ -1,0 +1,18 @@
+// stolen code that displays something different every reload
+
+<script language="JavaScript">
+        function randto(n) {
+            return Math.round(Math.random() * n) % n;
+        }
+
+    var numattrs = 3;
+    var attr=new Array(numattrs);
+    attr[0]="<b>hehe</b> : testy"
+    attr[1]="<b>hehe</b> : testies"
+    attr[2]="<b>hehe</b> : balls"
+    </script>
+
+// output here
+<script language="Javascript">
+       document.write(attr[randto(numattrs)]);
+    </script>
